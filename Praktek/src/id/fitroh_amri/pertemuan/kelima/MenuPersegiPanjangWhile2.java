@@ -25,27 +25,27 @@ public class MenuPersegiPanjangWhile2 {
             switch (noMenu) {
                 case 1: {
                     System.out.println("masukan nilai panjang");
-                    panjang = in.nextInt();
+                    panjang = in.nextFloat();
                     System.out.println("masukan nilai lebar");
-                    lebar = in.nextInt();
+                    lebar = in.nextFloat();
                     luas = panjang * lebar;
                     System.out.println(luas);
                 }
                 break;
                 case 2: {
                     System.out.println("masukan nilai panjang");
-                    panjang = in.nextInt();
+                    panjang = in.nextFloat();
                     System.out.println("masukan nilai lebar");
-                    lebar = in.nextInt();
+                    lebar = in.nextFloat();
                     keliling = 2 * panjang + 2 * lebar;
                     System.out.println(keliling);
                 }
                 break;
                 case 3: {
                     System.out.println("masukan nilai panjang");
-                    panjang = in.nextInt();
+                    panjang = in.nextFloat();
                     System.out.println("masukan nilai lebar");
-                    lebar = in.nextInt();
+                    lebar = in.nextFloat();
                     diagonal = panjang * panjang + lebar * lebar;
                     System.out.println(diagonal);
                 }

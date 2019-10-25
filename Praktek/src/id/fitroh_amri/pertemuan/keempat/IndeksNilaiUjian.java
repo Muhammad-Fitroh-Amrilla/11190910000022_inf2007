@@ -12,16 +12,16 @@ public class IndeksNilaiUjian {
         Scanner in = new Scanner(System.in);
         int nilai = in.nextInt();
         char indeks;
-        
-        if (nilai >= 80){
+
+        if (nilai >= 80) {
             indeks = 'A';
-        } else if ((nilai >= 70) && (nilai < 80)){
+        } else if ((nilai >= 70) && (nilai < 80)) {
             indeks = 'B';
-        }else if ((nilai >= 55)&&(nilai < 70)){
+        } else if ((nilai >= 55) && (nilai < 70)) {
             indeks = 'C';
-        }else if ((nilai >= 40)&&(nilai < 50)){
+        } else if ((nilai >= 40) && (nilai < 50)) {
             indeks = 'D';
-        }else{
+        } else {
             indeks = 'E';
         }
         System.out.println(indeks);

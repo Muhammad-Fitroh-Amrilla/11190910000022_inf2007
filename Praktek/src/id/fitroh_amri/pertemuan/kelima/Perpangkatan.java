@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author FITROH_08
+ * @author revimaulana
  */
 public class Perpangkatan {
     public static void main(String[] args) {

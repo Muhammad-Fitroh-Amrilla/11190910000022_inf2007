@@ -1,7 +1,5 @@
 package id.fitroh_amri.pertemuan.keenam;
-
 import java.util.Scanner;
-
 /**
  *
  * @author FITROH_08
