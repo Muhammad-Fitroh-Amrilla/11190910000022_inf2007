@@ -21,7 +21,7 @@ public class PencarianString {
     }
     
     int BinarySearch(String[] Array,int n, String x) { 
-        int i = 0, j = n - 1, k = 0;
+        int i = 0, j = n - 1, k=0;
         
         boolean ketemu = false;
         while ((i <= j) && (!ketemu)) {
@@ -29,7 +29,7 @@ public class PencarianString {
             if (x.equals(Array[k])) {
                 ketemu = true;
             } else {
-                if (x.compareTo(Array[k]) < 0) {
+                if (x.compareTo(Array[k]) > 0) {
                     i = k + 1;
                 } else {
                     j = k - 1;
